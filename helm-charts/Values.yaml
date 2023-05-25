@@ -1,7 +1,7 @@
-name: python-app
+name: node-app
 namespace: default
-servicename: py-app
-port: 80
+servicename: node-app
+port: 3000
 replicacount: 3
 image: <+artifact.image>
 svctype: LoadBalancer
